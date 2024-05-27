@@ -4,3 +4,28 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+  --bg-color: #4f4747;
+  --accent-color: #4df34d;
+}
+
+:root.theme-light {
+  --bg-color: pink;
+  --accent-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #4f4747;
+    --accent-color: #5ac05a;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: pink;
+    --accent-color: #000;
+  }
+}
+
