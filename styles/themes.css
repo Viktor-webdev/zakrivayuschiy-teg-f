@@ -6,26 +6,25 @@
 */
 
 :root.theme-dark {
-  --bg-color: #4f4747;
-  --accent-color: #4df34d;
+  --bg-color: #000;
+  --accent-color: #00cc14;
 }
 
 :root.theme-light {
-  --bg-color: pink;
+  --bg-color: #fff;
   --accent-color: #000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #4f4747;
-    --accent-color: #5ac05a;
+    --bg-color: #000;
+    --accent-color: #00cc14;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: pink;
+    --bg-color: #fff;
     --accent-color: #000;
   }
 }
-
