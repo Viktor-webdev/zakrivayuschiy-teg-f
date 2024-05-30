@@ -17,6 +17,17 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  background-color: var(--bg-color);
+  background-image: repeating-linear-gradient(
+      to right,
+      var(--gradient-row),
+      transparent 2px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      var(--gradient-col-primary),
+      var(--gradient-col-secondary)
+    );
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--accent-color);
 }

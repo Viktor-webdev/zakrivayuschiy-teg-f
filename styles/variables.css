@@ -2,5 +2,8 @@
 :root {
   --bg-color: #fff;
   --accent-color: #000;
+  --gradient-row: #d3d3d3;
+  --gradient-col-primary: #e7e7e7;
+  --gradient-col-secondary: #1a1a1a;
   --background-image: 1;
 }
