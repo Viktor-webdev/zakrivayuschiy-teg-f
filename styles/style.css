@@ -15,7 +15,9 @@
 */
 
 .page {
-  min-inline-size: 320px;
+  max-width: 1440px;
+  margin: 100px auto 0;
+  min-width: 320px;
   /*min-block-size: 100dvb;*/
   background-image: repeating-linear-gradient(
       to right,
@@ -32,14 +34,18 @@
       var(--gradient-col-primary) 0.01%,
       var(--gradient-col-secondary)
     );
-
   background-size: cover;
   background-attachment: fixed;
   color: var(--accent-color);
 }
 
 .header {
+  border: 2px solid var(--accent-color);
   background-color: var(--bg-color);
-  max-width: 700px;
-  margin: 100px auto 0;
+}
+
+.content {
+  width: var(--main-width);
+  margin: 0 auto;
+  /*outline: 1px solid deeppink;*/
 }
