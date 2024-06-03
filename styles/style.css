@@ -90,3 +90,18 @@
   text-transform: uppercase;
   padding: 0;
 }
+
+.theme-menu__button:disabled.theme-menu__button:before {
+  content: '▶';
+  display: inline-block;
+  animation: menu-arrow linear 0.6s infinite alternate;
+}
+
+@keyframes menu-arrow {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
