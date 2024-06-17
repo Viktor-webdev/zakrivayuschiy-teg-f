@@ -6,5 +6,6 @@
   --gradient-col-primary: #e7e7e7;
   --gradient-col-secondary: #1a1a1a;
   --main-width: clamp(375px, 49%, 700px);
-  --decor-font: PressStart2P-Regular;
+  --main-font: Inter-variable;
+  --accent-font: PressStart2P-Regular;
 }
