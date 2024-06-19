@@ -135,6 +135,12 @@
   transition: all ease 0.3s;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
 .card {
   border: 2px solid var(--accent-color);
 }
@@ -147,7 +153,8 @@
 }
 
 .card__image {
-  max-width: 100%;
+  width: 100%;
+  display: block;
   object-fit: cover;
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
